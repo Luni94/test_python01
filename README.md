@@ -1,1 +1,1 @@
-# test_python01
+# python_training
