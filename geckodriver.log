@@ -132,3 +132,91 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
 1662760780515	Marionette	INFO	Stopped listening on port 53478
+1662819570008	geckodriver	INFO	Listening on 127.0.0.1:53921
+1662819573046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileWexd3I"
+1662819573338	Marionette	INFO	Marionette enabled
+1662819573343	Marionette	INFO	Listening on port 53946
+Read port: 53946
+1662819573444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileWexd3I\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1662819576399	Marionette	INFO	Stopped listening on port 53946
+1662819583538	geckodriver	INFO	Listening on 127.0.0.1:53992
+1662819586576	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileUmkU9K"
+1662819586833	Marionette	INFO	Marionette enabled
+1662819586838	Marionette	INFO	Listening on port 54012
+Read port: 54012
+1662819587054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileUmkU9K\\search.json.mozlz4", (void 0)))
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:337:29
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+1662819603265	Marionette	INFO	Stopped listening on port 54012
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 57"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:57:28
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:206:24
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2285:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2812:8
+despatch@chrome://remote/content/marionette/server.js:304:40
+execute@chrome://remote/content/marionette/server.js:277:16
+onPacket/<@chrome://remote/content/marionette/server.js:250:20
+onPacket@chrome://remote/content/marionette/server.js:251:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:502:20
+
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2270: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1662819603363	geckodriver	INFO	Listening on 127.0.0.1:54077
+1662819606372	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileoDVMJk"
+1662819606622	Marionette	INFO	Marionette enabled
+1662819606626	Marionette	INFO	Listening on port 54096
+Read port: 54096
+1662819606847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileoDVMJk\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1662819609348	Marionette	INFO	Stopped listening on port 54096
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 60: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1662819610130	geckodriver	INFO	Listening on 127.0.0.1:54133
+1662819613154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofilesxFcLK"
+1662819613439	Marionette	INFO	Marionette enabled
+1662819613444	Marionette	INFO	Listening on port 54150
+Read port: 54150
+1662819613529	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofilesxFcLK\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1662819616322	Marionette	INFO	Stopped listening on port 54150
+[Parent 17324, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 60: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1662819725698	geckodriver	INFO	Listening on 127.0.0.1:54432
+1662819728744	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileoJ3IFB"
+1662819729011	Marionette	INFO	Marionette enabled
+1662819729015	Marionette	INFO	Listening on port 54455
+Read port: 54455
+1662819729190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileoJ3IFB\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1662819732161	Marionette	INFO	Stopped listening on port 54455
+1662819732705	geckodriver	INFO	Listening on 127.0.0.1:54485
+1662819735735	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileYmBklV"
+1662819735996	Marionette	INFO	Marionette enabled
+1662819736001	Marionette	INFO	Listening on port 54508
+Read port: 54508
+1662819736219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileYmBklV\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1662819738874	Marionette	INFO	Stopped listening on port 54508
+1662819739512	geckodriver	INFO	Listening on 127.0.0.1:54538
+1662819742535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileJlEEYq"
+1662819742802	Marionette	INFO	Marionette enabled
+1662819742806	Marionette	INFO	Listening on port 54560
+Read port: 54560
+1662819742973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileJlEEYq\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1662819745551	Marionette	INFO	Stopped listening on port 54560
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 60: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
