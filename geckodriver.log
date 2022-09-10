@@ -220,3 +220,23 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://l
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
 1662819745551	Marionette	INFO	Stopped listening on port 54560
 JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 60: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1662838206948	geckodriver	INFO	Listening on 127.0.0.1:52744
+1662838209984	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofile7i7D7q"
+1662838210470	Marionette	INFO	Marionette enabled
+1662838210476	Marionette	INFO	Listening on port 52768
+Read port: 52768
+1662838210600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofile7i7D7q\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1662838213722	Marionette	INFO	Stopped listening on port 52768
+1662838214284	geckodriver	INFO	Listening on 127.0.0.1:52799
+1662838217323	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileTTbMTx"
+1662838217587	Marionette	INFO	Marionette enabled
+1662838217591	Marionette	INFO	Listening on port 52818
+Read port: 52818
+1662838217780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileTTbMTx\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1662838220461	Marionette	INFO	Stopped listening on port 52818
