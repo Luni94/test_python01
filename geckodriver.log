@@ -240,3 +240,12 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
 1662838220461	Marionette	INFO	Stopped listening on port 52818
+1662904381481	geckodriver	INFO	Listening on 127.0.0.1:64754
+1662904384515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileamBMN3"
+1662904385225	Marionette	INFO	Marionette enabled
+1662904385231	Marionette	INFO	Listening on port 64772
+Read port: 64772
+1662904385732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileamBMN3\\search.json.mozlz4", (void 0)))
+1662904393769	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1662904393877	Marionette	INFO	Stopped listening on port 64772
