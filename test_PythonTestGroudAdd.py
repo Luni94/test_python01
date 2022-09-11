@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from group import Group
-from application import Application
+from test_group import Group
+from test_contact import Contact
+from test_application import Application
 import pytest
 
 
@@ -26,4 +27,10 @@ def app(request):
         app.create_group( Group(name=""))
         app.logout()
 
+
+
+    def test_contact_add(self):
+        app.login(username="admin", password="secret")
+        app.create_new_contact(Contact(name_contact="Maks", mail_contact="feniks3004@mail.ru"))
+        app.logout()
 
