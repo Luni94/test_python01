@@ -67,5 +67,5 @@ class Application:
 
 
 
-    def destroi(self):
+    def destroy(self):
         self.wd.quit()
