@@ -240,3 +240,55 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
 1662838220461	Marionette	INFO	Stopped listening on port 52818
+1665227259546	geckodriver	INFO	Listening on 127.0.0.1:51737
+1665227262603	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofilepN2gBt"
+1665227263215	Marionette	INFO	Marionette enabled
+1665227263219	Marionette	INFO	Listening on port 51756
+Read port: 51756
+1665227264173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofilepN2gBt\\search.json.mozlz4", (void 0)))
+1665227265664	Marionette	INFO	Stopped listening on port 51756
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1665227282340	geckodriver	INFO	Listening on 127.0.0.1:51799
+1665227285375	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileLBDIV0"
+1665227285675	Marionette	INFO	Marionette enabled
+1665227285681	Marionette	INFO	Listening on port 51819
+Read port: 51819
+1665227286035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileLBDIV0\\search.json.mozlz4", (void 0)))
+1665227287407	Marionette	INFO	Stopped listening on port 51819
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1665227387700	geckodriver	INFO	Listening on 127.0.0.1:52067
+1665227390758	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileHGS9cI"
+1665227391088	Marionette	INFO	Marionette enabled
+1665227391092	Marionette	INFO	Listening on port 52086
+Read port: 52086
+1665227391586	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileHGS9cI\\search.json.mozlz4", (void 0)))
+1665227392951	Marionette	INFO	Stopped listening on port 52086
+1665227425295	geckodriver	INFO	Listening on 127.0.0.1:52176
+1665227428354	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileP63OaL"
+1665227428681	Marionette	INFO	Marionette enabled
+1665227428685	Marionette	INFO	Listening on port 52193
+Read port: 52193
+1665227429069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileP63OaL\\search.json.mozlz4", (void 0)))
+1665227430435	Marionette	INFO	Stopped listening on port 52193
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1665227440308	geckodriver	INFO	Listening on 127.0.0.1:52233
+1665227443361	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileeYdV05"
+1665227443686	Marionette	INFO	Marionette enabled
+1665227443691	Marionette	INFO	Listening on port 52250
+Read port: 52250
+1665227444166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileeYdV05\\search.json.mozlz4", (void 0)))
+1665227445452	Marionette	INFO	Stopped listening on port 52250
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+1665227455299	geckodriver	INFO	Listening on 127.0.0.1:52283
+1665227458316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\fenik\\AppData\\Local\\Temp\\rust_mozprofileLc2F9i"
+1665227458624	Marionette	INFO	Marionette enabled
+1665227458629	Marionette	INFO	Listening on port 52298
+Read port: 52298
+1665227459016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session

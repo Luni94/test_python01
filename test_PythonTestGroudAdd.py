@@ -18,13 +18,13 @@ def app(request):
 
     
 def test_group_add(app):
-    app.login( username="admin", password="secret")
-    app.create_group( Group(name="addressss"))
+    app.login(username="admin", password="secret")
+    app.create_group(Group(name="addressss"))
     app.logout()
 
 def test_empty_group(app):
-    app.login( username="admin", password="secret")
-    app.create_group( Group(name=""))
+    app.login(username="admin", password="secret")
+    app.create_group(Group(name=""))
     app.logout()
 
 
@@ -34,3 +34,7 @@ def test_contact_add(app):
     app.create_new_contact(Contact(name_contact="Maks", mail_contact="feniks3004@mail.ru"))
     app.logout()
 
+def test_empty_add(app):
+    app.login(username="admin", password="secret")
+    app.create_new_contact(Contact(name_contact="", mail_contact=''))
+    app.logout()
